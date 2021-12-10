@@ -6,8 +6,8 @@
 </head>
 <body>
 <script>
-    let value = +prompt('Type a number', '');
-    switch((value>0) ? 1 : (value<0) ? -1 : 0) {
+    let value = prompt('Type a number', 0);
+    switch(value) {
         case 1:
             alert('Số này lớn hơn 0')
             break;
